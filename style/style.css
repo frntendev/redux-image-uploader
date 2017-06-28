@@ -1,0 +1,76 @@
+.hm-image-upload-section {
+  width: 100%;
+  height: 300px;
+  background: #e4f1f7;
+  position: relative;
+  border-radius: 4px; }
+  .hm-image-upload-section .image-upload-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; }
+    .hm-image-upload-section .image-upload-container .uploaded-images {
+      padding: 10px; }
+      .hm-image-upload-section .image-upload-container .uploaded-images .uploaded-image-container {
+        width: 55px;
+        height: 55px;
+        padding: 10px;
+        margin-right: 0;
+        background: rgba(255, 255, 255, 0.5);
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 4px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.24);
+        margin-bottom: 5px;
+        position: relative; }
+        .hm-image-upload-section .image-upload-container .uploaded-images .uploaded-image-container img {
+          width: 100%;
+          height: 100%; }
+        .hm-image-upload-section .image-upload-container .uploaded-images .uploaded-image-container .remove-image {
+          cursor: pointer;
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          background: #cb0505;
+          top: -5px;
+          right: -5px;
+          border-radius: 50%;
+          text-align: center;
+          color: #fff;
+          line-height: 18px;
+          font-size: 0.6rem; }
+  .hm-image-upload-section .image-upload-btn-container {
+    margin-top: -15px; }
+    .hm-image-upload-section .image-upload-btn-container .hm-image-upload-btn {
+      width: 170px;
+      background: #48cae0;
+      color: #fff;
+      border: 1px solid #48cae0;
+      border-radius: 15px 0 0 15px; }
+
+.file-upload-container {
+  text-align: center; }
+  .file-upload-container .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1; }
+    .file-upload-container .inputfile + label {
+      cursor: pointer;
+      width: 170px;
+      background: #48cae0;
+      color: #fff;
+      border: 1px solid #48cae0;
+      border-radius: 15px;
+      padding: 0px 10px;
+      font-weight: 100; }
+    .file-upload-container .inputfile:focus + label {
+      outline: 1px dotted #000;
+      outline: -webkit-focus-ring-color auto 5px; }
+      .file-upload-container .inputfile:focus + label* {
+        pointer-events: none; }
+    .file-upload-container .inputfile :focus + label, .file-upload-container .inputfile + label:hover {
+      background-color: #1c92a6; }
+
+/*# sourceMappingURL=style.css.map */
